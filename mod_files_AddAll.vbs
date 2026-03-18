@@ -1,6 +1,6 @@
 ' VBScript to recursively list all files with relative paths,
 ' write to mod_files.txt in UTF-8 format, each line prefixed with "add ".
-' Excluded files (at root only): mod_files_Add.vbs, mod_files.txt, mod_version.ini, changelog.md
+' Excluded files (at root only): mod_files_AddAll.vbs, mod_files.txt, mod_version.ini, changelog.md
 ' Runs silently, no output.
 
 Option Explicit
@@ -14,7 +14,7 @@ Set fso = CreateObject("Scripting.FileSystemObject")
 rootFolder = fso.GetAbsolutePathName(".")
 
 ' Define the list of files to exclude (exact filenames, case-insensitive comparison)
-excludeList = Array("mod_files_Add.vbs", "mod_files.txt", "mod_version.ini", "changelog.md")
+excludeList = Array("mod_files_AddAll.vbs", "mod_files.txt", "mod_version.ini", "changelog.md")
 
 ' Output file path
 outputFile = fso.BuildPath(rootFolder, "mod_files.txt")
