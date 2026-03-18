@@ -1,0 +1,140 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Options",
+      "Elements": [
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "Select Boost Aura:",
+          "Type": "Accessory",
+          "Description":[
+                  "Choose Boost Aura Style.",
+				  "",
+				  "选择冲刺特效.",
+				  ""
+          ],
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "."
+        },
+      ]
+    }
+  ],
+  "Enums": {
+    "Accessory": [
+	  {"DisplayName": "Werehog Wind Style",
+        "Description":[
+        "Do you like the Werehog's Spiral Dash effect at night? ",
+        "",
+		"Now you can replace the Werehog's Spiral Dash with the Boost Aura that Sonic uses during the day.",
+        "",
+        "你喜欢狼刺猬索尼克的螺旋冲刺特效么？ ",
+		"现在你可以将它替换为白天索尼克使用的冲刺特效了.",
+        ""],
+        "Value": "WerehogWindStyle"
+
+      },
+      {"DisplayName": "Secret Rings Style",
+        "Description":[
+        "Imitates the flame-wreathed Boost Aura from Secret Rings,",
+		"",
+		"with a slightly flashy visual effect.",
+		"",
+        "模仿在Secret Rings中火焰缠绕的冲刺特效，",
+		"画面变得有些浮夸.",
+        ""],
+        "Value": "SecretRingsStyle"
+      },
+      {"DisplayName": "Sonic Colors Style",
+        "Description":[
+        "It mimics the Boost Aura from Sonic Colors.",
+        "",
+		"However, due to technical limitations, the visual effect isn't a perfect replica,",
+		"but a version that gets close.",
+        "",
+        "模仿索尼克色彩的冲刺特效.",
+		"不过由于技术力有限，没有很好的完全还原，",
+		"总之还是做出了差不多的版本.",
+        ""],
+        "Value": "SonicColorsStyle"
+      },
+      {"DisplayName": "Sonic Forces Style",
+        "Description":[
+        "It mimics the Boost Aura from Sonic Forces.",
+        "",
+		"It's a highly saturated, constantly flickering, and a bit harsh-looking aura that, ",
+		"for some reason, looks very cartoony in HE1.",
+        "",
+		"模仿索尼克力量的冲刺特效，",
+		"高饱和闪烁得有点刺眼的特效，",
+		"不知为何在HE1里看起来很卡通.",
+        ""],
+        "Value": "SonicForcesStyle"
+      },
+      {"DisplayName": "Unwiished Style",
+        "Description":[
+        "It mimics the Boost Aura from Sonic Unleashed Wii/PS2.",
+        "",
+		"Although it's not as polished as the Boost Aura in newer console versions,",
+		"I appreciate its transparency and flickering effects.",
+        "",
+		"模仿Wii/PS2版的索尼克释放的冲刺特效，",
+		"虽然没有主机版那么精致，但我喜欢它的透明和闪烁效果.",
+        ""],
+        "Value": "UnwiishedStyle"
+      },
+      {"DisplayName": "Beta Prototypes Style",
+        "Description":[
+        "It mimics the Boost Aura from Sonic Unleashed Trailer.",
+        "",
+		"Sonic Team's original design for the Boost Aura was different from the final version",
+        "",
+		"I tried to replicate its appearance to achieve a similar result.",
+        "",
+		"模仿早期索尼克释放预告片里的冲刺特效，",
+		"SonicTeam最初设计的冲刺特效和最终版不同，我尝试模仿出那个预告片里的效果.",
+        ""],
+        "Value": "BetaPrototypesStyle"
+      },
+      {"DisplayName": "Original Soft Tail",
+        "Description":[
+        "Added a faint trailing effect to the original Boost Aura to make it look less stiff.",
+        "",
+        "给原版冲刺特效加一条淡淡的拖尾，让它看起来没那么生硬.",
+        ""],
+        "Value": "OriginalSoftTail"
+      },
+      {"DisplayName": "Realistic Style Sonic Boom",
+        "Description":[
+        "It imitates the vapor cone created when breaking the sound barrier in real life.",
+        "",
+        "particularly attractive, but it gives you an idea of what Sonic's Boost Aura might look like in the real world.",
+        "",
+        "模仿现实中真实的突破音障时产生的音障云，",
+		"它看起来不华丽甚至不能说是好看，但可以用它想象一下索尼克如果在真实世界中Boost会是怎么样的效果.",
+        ""],
+        "Value": "RealisticSonicBoom"
+      },
+      {"DisplayName": "Only Blur Tail",
+        "Description":[
+        "Hide the Boost Aura,",
+		"but leave a blue trail.",
+		"It looks very clean.",
+        "",
+        "隐藏冲刺特效但留一条蓝色拖尾，看起来很干净.",
+        ""],
+        "Value": "OnlyBlurTailStyle"
+      },
+      {"DisplayName": "No Aura",
+        "Description":[
+        "Hide Boost Aura effects.",
+        "",
+        "隐藏冲刺特效.",
+        ""],
+        "Value": "NoAura"
+      }
+    ],
+  },
+  "IniFile": "mod.ini"
+}

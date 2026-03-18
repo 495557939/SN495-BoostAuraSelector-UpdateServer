@@ -1,0 +1,731 @@
+<?xml version="1.0" ?>
+<Effect Name="ef_ch_sng_yh1_boost2">
+  <StartTime Value="0" />
+  <LifeTime Value="100" />
+  <Color R="1" G="1" B="1" A="1" />
+  <Translation X="0" Y="0" Z="0" />
+  <Rotation X="0" Y="0" Z="0" />
+  <Flags Value="1" />
+  
+  
+  
+  
+  <Emitter Id="0" Name="boostModel1E" Type="Box">
+    <StartTime Value="0" />
+    <LifeTime Value="60" />
+    <LoopStartTime Value="0" />
+    <LoopEndTime Value="-1" />
+    <Translation X="0" Y="0" Z="0.65" />
+    <Rotation X="0" Y="0" Z="0" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Scaling X="1" Y="1" Z="1" />
+    <EmitCondition Value="Time" />
+    <DirectionType Value="ParentAxis" />
+    <EmissionInterval Value="14" />
+    <ParticlePerEmission Value="10" />
+    <Size X="0.00" Y="0.00" Z="0.35" />
+    <Flags Value="1" />
+    <Particle Id="0" Name="boostModel1" />
+  </Emitter>
+  
+  
+  
+  <Particle Id="0" Name="boostModel1" Type="Mesh">
+    <LifeTime Value="30" />
+    <PivotPosition Value="MiddleCenter" />
+    <DirectionType Value="EmitterAxis" />
+    <ZOffset Value="0" />
+    <Size X="1" Y="1" Z="1" />
+    <SizeRandom X="0" Y="0" Z="0" />
+    <Rotation X="0" Y="360" Z="0" />
+    <RotationRandom X="0" Y="0" Z="0" />
+    <RotationAdd X="0" Y="0" Z="-12.8" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Direction X="0" Y="1" Z="0" />
+    <DirectionRandom X="0" Y="0" Z="0" />
+    <Speed Value="0" />
+    <SpeedRandom Value="0" />
+    <GravitationalAccel X="0" Y="0" Z="0" />
+    <ExternalAccel X="0" Y="0" Z="0" />
+    <ExternalAccelRandom X="0" Y="0" Z="0" />
+    <Deceleration Value="0" />
+    <DecelerationRandom Value="0" />
+    <ReflectionCoeff Value="1" />
+    <ReflectionCoeffRandom Value="0" />
+    <ReboundPlaneY Value="0" />
+    <MaxCount Value="30" />
+    <MeshName Value="eff_mot_sonic_boost2" />
+    <Color R="1" G="1" B="1" A="0.1" />
+    <TextureIndex Value="0" />
+    <UvIndexType Value="Fixed" />
+    <UvIndex Value="0" />
+    <UvChangeInterval Value="0" />
+    <ColorScroll U="0" V="0" />
+    <ColorScrollRandom U="0" V="0" />
+    <ColorScrollSpeed Value="1" />
+    <Material Value="00_mesh_dv_add" />
+    <BlendMode Value="Add" />
+    <SecondaryBlendMode Value="Zero" />
+    <SecondaryBlend Value="-1" />
+    <Flags Value="4" />
+    <Animation Type="ColorA">
+      <StartTime Value="0" />
+      <EndTime Value="30" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="0">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="5" Value="254">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="30" Value="0">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sx">
+      <StartTime Value="0" />
+      <EndTime Value="30" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="0.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="30" Value="1.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sy">
+      <StartTime Value="0" />
+      <EndTime Value="30" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="0.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="30" Value="1.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sz">
+      <StartTime Value="0" />
+      <EndTime Value="30" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="0.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="30" Value="2.25">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+  </Particle>
+  
+  
+  
+  <Emitter Id="1" Name="boostModel2E" Type="Box">
+    <StartTime Value="0" />
+    <LifeTime Value="60" />
+    <LoopStartTime Value="0" />
+    <LoopEndTime Value="-1" />
+    <Translation X="0" Y="0" Z="0.65" />
+    <Rotation X="0" Y="0" Z="0" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Scaling X="1" Y="1" Z="1" />
+    <EmitCondition Value="Time" />
+    <DirectionType Value="ParentAxis" />
+    <EmissionInterval Value="9" />
+    <ParticlePerEmission Value="6" />
+    <Size X="0" Y="0" Z="0.2" />
+    <Flags Value="1" />
+    <Particle Id="1" Name="boostModel2" />
+  </Emitter>
+  
+  <Particle Id="1" Name="boostModel2" Type="Mesh">
+    <LifeTime Value="12" />
+    <PivotPosition Value="MiddleCenter" />
+    <DirectionType Value="EmitterAxis" />
+    <ZOffset Value="0" />
+    <Size X="1" Y="1" Z="1" />
+    <SizeRandom X="0" Y="0" Z="0" />
+    <Rotation X="-90" Y="0" Z="0" />
+    <RotationRandom X="0" Y="0" Z="0" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Direction X="0" Y="0" Z="-1" />
+    <DirectionRandom X="0" Y="0" Z="0" />
+    <Speed Value="0.1" />
+    <SpeedRandom Value="0" />
+    <GravitationalAccel X="0" Y="0" Z="0" />
+    <ExternalAccel X="0" Y="0" Z="0" />
+    <ExternalAccelRandom X="0" Y="0" Z="0" />
+    <Deceleration Value="0" />
+    <DecelerationRandom Value="0" />
+    <ReflectionCoeff Value="1" />
+    <ReflectionCoeffRandom Value="0" />
+    <ReboundPlaneY Value="0" />
+    <MaxCount Value="30" />
+    <MeshName Value="eff_mod_sonic_stomping2" />
+    <Color R="1" G="1" B="1.0" A="0.6" />
+    <TextureIndex Value="0" />
+    <UvIndexType Value="Fixed" />
+    <UvIndex Value="0" />
+    <UvChangeInterval Value="0" />
+    <ColorScroll U="0" V="0" />
+    <ColorScrollRandom U="0" V="0" />
+    <ColorScrollSpeed Value="1" />
+    <Material Value="00_mesh_dv_add" />
+    <BlendMode Value="Add" />
+    <SecondaryBlendMode Value="Zero" />
+    <SecondaryBlend Value="-1" />
+    <Flags Value="4" />
+    <Animation Type="ColorA">
+      <StartTime Value="0" />
+      <EndTime Value="12" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="0">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="3" Value="125">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="12" Value="0">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sx">
+      <StartTime Value="0" />
+      <EndTime Value="12" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="6.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="12" Value="15">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sy">
+      <StartTime Value="0" />
+      <EndTime Value="12" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="10">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="12" Value="100">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sz">
+      <StartTime Value="0" />
+      <EndTime Value="12" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="6.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="12" Value="15">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+  </Particle>
+  
+  
+  
+  
+  
+  
+  <Emitter Id="2" Name="boostModel3E" Type="Box">
+    <StartTime Value="0" />
+    <LifeTime Value="60" />
+    <LoopStartTime Value="0" />
+    <LoopEndTime Value="-1" />
+    <Translation X="0" Y="0" Z="0.55" />
+    <Rotation X="0" Y="0" Z="0" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Scaling X="1" Y="1" Z="1" />
+    <EmitCondition Value="Time" />
+    <DirectionType Value="ParentAxis" />
+    <EmissionInterval Value="6" />
+    <ParticlePerEmission Value="6" />
+    <Size X="0" Y="0" Z="0.2" />
+    <Flags Value="1" />
+    <Particle Id="2" Name="boostModel3" />
+  </Emitter>
+  
+  <Particle Id="2" Name="boostModel3" Type="Mesh">
+    <LifeTime Value="12" />
+    <PivotPosition Value="MiddleCenter" />
+    <DirectionType Value="EmitterAxis" />
+    <ZOffset Value="0" />
+    <Size X="1.6" Y="1.85" Z="1.6" />
+    <SizeRandom X="0" Y="0" Z="0" />
+    <Rotation X="-90" Y="0" Z="90" />
+    <RotationRandom X="0" Y="0" Z="0" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Direction X="0" Y="0" Z="-1" />
+    <DirectionRandom X="0" Y="0" Z="0" />
+    <Speed Value="0.183333" />
+    <SpeedRandom Value="0" />
+    <GravitationalAccel X="0" Y="0" Z="0" />
+    <ExternalAccel X="0" Y="0" Z="0" />
+    <ExternalAccelRandom X="0" Y="0" Z="0" />
+    <Deceleration Value="0" />
+    <DecelerationRandom Value="0" />
+    <ReflectionCoeff Value="1" />
+    <ReflectionCoeffRandom Value="0" />
+    <ReboundPlaneY Value="0" />
+    <MaxCount Value="30" />
+    <MeshName Value="eff_mod_sonic_stomping2" />
+    <Color R="1" G="1" B="1.0" A="0.35" />
+    <TextureIndex Value="0" />
+    <UvIndexType Value="Fixed" />
+    <UvIndex Value="0" />
+    <UvChangeInterval Value="0" />
+    <ColorScroll U="0" V="0" />
+    <ColorScrollRandom U="0" V="0" />
+    <ColorScrollSpeed Value="1" />
+    <Material Value="00_mesh_dv_add" />
+    <BlendMode Value="Add" />
+    <SecondaryBlendMode Value="Zero" />
+    <SecondaryBlend Value="-1" />
+    <Flags Value="4" />
+    <Animation Type="ColorA">
+      <StartTime Value="0" />
+      <EndTime Value="12" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="0">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="3" Value="125">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="12" Value="0">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sx">
+      <StartTime Value="0" />
+      <EndTime Value="12" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="6.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="12" Value="24">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sy">
+      <StartTime Value="0" />
+      <EndTime Value="12" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="10">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="12" Value="140">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sz">
+      <StartTime Value="0" />
+      <EndTime Value="12" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="6.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="12" Value="24">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+  </Particle>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- 光圈 -->
+	
+	
+  <Emitter Id="80" Name="inner" Type="Box">
+    <StartTime Value="0" />
+    <LifeTime Value="30" />
+    <LoopStartTime Value="0" />
+    <LoopEndTime Value="-1" />
+    <Translation X="0" Y="0" Z="0.0" />
+    <Rotation X="0" Y="0" Z="0" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Scaling X="1" Y="1" Z="1" />
+    <EmitCondition Value="Time" />
+    <DirectionType Value="ParentAxis" />
+    <EmissionInterval Value="1" />
+    <ParticlePerEmission Value="1" />
+    <Size X="0" Y="0" Z="0.35" />
+    <Flags Value="1" />
+    <Particle Id="80" Name="innerP" />
+  </Emitter>
+	
+	
+	
+  <Particle Id="80" Name="innerP" Type="Quad">
+    <LifeTime Value="5" />
+    <PivotPosition Value="MiddleCenter" />
+    <DirectionType Value="Billboard" />
+    <ZOffset Value="0" />
+    <Size X="0.9" Y="0.9" Z="1" />
+    <SizeRandom X="0.03" Y="0.03" Z="0" />
+    <Rotation X="0" Y="0" Z="0" />
+    <RotationRandom X="0" Y="0" Z="360" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Direction X="0" Y="0" Z="0" />
+    <DirectionRandom X="0" Y="0" Z="0" />
+    <Speed Value="0.01" />
+    <SpeedRandom Value="0" />
+    <GravitationalAccel X="0" Y="0" Z="0" />
+    <ExternalAccel X="0" Y="0" Z="0" />
+    <ExternalAccelRandom X="0" Y="0" Z="0" />
+    <Deceleration Value="0" />
+    <DecelerationRandom Value="0" />
+    <ReflectionCoeff Value="1" />
+    <ReflectionCoeffRandom Value="0" />
+    <ReboundPlaneY Value="0" />
+    <MaxCount Value="8" />
+    <Color R="0.058" G="0.3" B="1" A="0.35" />
+    <TextureIndex Value="0" />
+    <UvIndexType Value="Fixed" />
+    <UvIndex Value="0" />
+    <UvChangeInterval Value="0" />
+    <ColorScroll U="0" V="0" />
+    <ColorScrollRandom U="0" V="0" />
+    <ColorScrollSpeed Value="1" />
+    <Material Value="circle_common1" />
+    <BlendMode Value="Zero" />
+    <SecondaryBlendMode Value="Zero" />
+    <SecondaryBlend Value="-1" />
+    <Flags Value="4" />
+    <Animation Type="ColorA">
+      <StartTime Value="0" />
+      <EndTime Value="5" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="4" />
+      <Key Time="0" Value="0">
+        <InterpolationType Value="Hermite" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="2.5" Value="254">
+        <InterpolationType Value="Hermite" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="5" Value="0">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="SAll">
+      <StartTime Value="0" />
+      <EndTime Value="5" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="4" />
+      <Key Time="0" Value="0.9">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="5" Value="1.1">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+  </Particle>
+  
+  
+  
+  
+  
+  
+  
+  <Emitter Id="81" Name="Enose" Type="Box">
+    <StartTime Value="0" />
+    <LifeTime Value="30" />
+    <LoopStartTime Value="0" />
+    <LoopEndTime Value="-1" />
+    <Translation X="0" Y="0" Z="0.0" />
+    <Rotation X="0" Y="0" Z="0" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Scaling X="1" Y="1" Z="1" />
+    <EmitCondition Value="Time" />
+    <DirectionType Value="ParentAxis" />
+    <EmissionInterval Value="1" />
+    <ParticlePerEmission Value="1" />
+    <Size X="0" Y="0" Z="0.35" />
+    <Flags Value="1" />
+    <Particle Id="81" Name="noseParticle" />
+  </Emitter>
+  
+  
+  
+  <Particle Id="81" Name="noseParticle" Type="Quad">
+    <LifeTime Value="5" />
+    <PivotPosition Value="MiddleCenter" />
+    <DirectionType Value="Billboard" />
+    <ZOffset Value="0" />
+    <Size X="1.15" Y="1.15" Z="1.15" />
+    <SizeRandom X="0" Y="0" Z="0" />
+    <Rotation X="0" Y="0" Z="0" />
+    <RotationRandom X="0" Y="0" Z="360" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Direction X="0" Y="0" Z="0" />
+    <DirectionRandom X="0" Y="0" Z="0" />
+    <Speed Value="0.01" />
+    <SpeedRandom Value="0" />
+    <GravitationalAccel X="0" Y="0" Z="0" />
+    <ExternalAccel X="0" Y="0" Z="0" />
+    <ExternalAccelRandom X="0" Y="0" Z="0" />
+    <Deceleration Value="0" />
+    <DecelerationRandom Value="0" />
+    <ReflectionCoeff Value="1" />
+    <ReflectionCoeffRandom Value="0" />
+    <ReboundPlaneY Value="0" />
+    <MaxCount Value="8" />
+    <Color R="0.058" G="0.3" B="1" A="0.6" />
+    <TextureIndex Value="0" />
+    <UvIndexType Value="Fixed" />
+    <UvIndex Value="0" />
+    <UvChangeInterval Value="0" />
+    <ColorScroll U="0" V="0" />
+    <ColorScrollRandom U="0" V="0" />
+    <ColorScrollSpeed Value="1" />
+    <Material Value="shockwave_chn" />
+    <BlendMode Value="Zero" />
+    <SecondaryBlendMode Value="Zero" />
+    <SecondaryBlend Value="-1" />
+    <Flags Value="4" />
+    <Animation Type="ColorA">
+      <StartTime Value="0" />
+      <EndTime Value="5" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="4" />
+      <Key Time="0" Value="0">
+        <InterpolationType Value="Hermite" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="2.5" Value="254">
+        <InterpolationType Value="Hermite" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="5" Value="0">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="SAll">
+      <StartTime Value="0" />
+      <EndTime Value="5" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="4" />
+      <Key Time="0" Value="0.8">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="5" Value="2.25">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+  </Particle>
+  
+  
+  
+  
+  
+  
+  
+  <!--轨迹线Tail-->
+  
+  
+  
+  <Emitter Id="802" Name="locus" Type="Box">
+    <StartTime Value="0" />
+    <LifeTime Value="30" />
+    <LoopStartTime Value="0" />
+    <LoopEndTime Value="-1" />
+    <Translation X="0" Y="0" Z="-0.025" />
+    <Rotation X="-0" Y="0" Z="-0" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Scaling X="1" Y="1" Z="1" />
+    <EmitCondition Value="Time" />
+    <DirectionType Value="EmitterAxis" />
+    <EmissionInterval Value="5" />
+    <ParticlePerEmission Value="6" />
+    <Size X="0.65" Y="0.65" Z="0.05" />
+    <Flags Value="1" />
+    <Particle Id="802" Name="tail3" />
+  </Emitter>
+	
+	
+	
+  <Particle Id="802" Name="tail3" Type="Locus">
+    <LifeTime Value="15" />
+    <PivotPosition Value="MiddleCenter" />
+    <DirectionType Value="DirectionalAngleBillboard" />
+    <ZOffset Value="0" />
+    <Size X="0.2" Y="0.2" Z="0.2" />
+    <SizeRandom X="0" Y="0" Z="0" />
+    <Rotation X="0" Y="0" Z="0" />
+    <RotationRandom X="0" Y="0" Z="180" />
+    <RotationAdd X="0" Y="0" Z="0" />
+    <RotationAddRandom X="0" Y="0" Z="0" />
+    <Direction X="0" Y="0" Z="0" />
+    <DirectionRandom X="0" Y="0" Z="0" />
+    <Speed Value="0" />
+    <SpeedRandom Value="0" />
+    <GravitationalAccel X="0" Y="0" Z="0" />
+    <ExternalAccel X="0" Y="0" Z="0" />
+    <ExternalAccelRandom X="0" Y="0" Z="0" />
+    <Deceleration Value="0" />
+    <DecelerationRandom Value="0" />
+    <ReflectionCoeff Value="1" />
+    <ReflectionCoeffRandom Value="0" />
+    <ReboundPlaneY Value="0" />
+    <MaxCount Value="30" />
+    <LocusHistorySize Value="45" />
+    <LocusHistorySizeRandom Value="0" />
+    <Color R="0.5" G="0.5" B="0.5" A="0.5" />
+    <TextureIndex Value="0" />
+    <UvIndexType Value="Fixed" />
+    <UvIndex Value="0" />
+    <UvChangeInterval Value="0" />
+    <ColorScroll U="0" V="0" />
+    <ColorScrollRandom U="0" V="0" />
+    <ColorScrollSpeed Value="1" />
+    <Material Value="spsonic_tail" /><!-- 此处暂时改为我新移植的材质了. -->
+    <Flags Value="1044" />
+  </Particle>
+    <Animation Type="ColorA">
+      <StartTime Value="0" />
+      <EndTime Value="15" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="200">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="15" Value="0">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+    <Animation Type="Sx">
+      <StartTime Value="0" />
+      <EndTime Value="15" />
+      <RepeatType Value="Constant" />
+      <RandomFlags Value="0" />
+      <Key Time="0" Value="1">
+        <InterpolationType Value="Hermite" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+      <Key Time="15" Value="0.5">
+        <InterpolationType Value="Linear" />
+        <InParam Value="0" />
+        <OutParam Value="0" />
+      </Key>
+    </Animation>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  
+  
+  
+</Effect>
