@@ -1,1 +1,9 @@
-﻿add mod.ini
+add mod.ini
+add SecretRingsStyle/+Sonic.ar.00
+add SecretRingsStyle/+Sonic.arl
+add SecretRingsStyle/disk/bb3/+Sonic.ar.00
+add SecretRingsStyle/disk/bb3/+Sonic.arl
+add SonicForcesStyle/+Sonic.ar.00
+add SonicForcesStyle/+Sonic.arl
+add SonicForcesStyle/disk/bb3/+Sonic.ar.00
+add SonicForcesStyle/disk/bb3/+Sonic.arl
