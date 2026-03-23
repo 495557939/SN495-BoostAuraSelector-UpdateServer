@@ -1,4 +1,5 @@
-add mod.ini
+﻿add mod.ini
+add BoostSetting.json
 add SecretRingsStyle/+Sonic.ar.00
 add SecretRingsStyle/+Sonic.arl
 add SecretRingsStyle/disk/bb3/+Sonic.ar.00
@@ -7,3 +8,7 @@ add SonicForcesStyle/+Sonic.ar.00
 add SonicForcesStyle/+Sonic.arl
 add SonicForcesStyle/disk/bb3/+Sonic.ar.00
 add SonicForcesStyle/disk/bb3/+Sonic.arl
+add ShadowGensStyle/+Sonic.ar.00
+add ShadowGensStyle/+Sonic.arl
+add ShadowGensStyle/disk/bb3/+Sonic.ar.00
+add ShadowGensStyle/disk/bb3/+Sonic.arl

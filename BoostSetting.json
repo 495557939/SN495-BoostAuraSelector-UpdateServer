@@ -23,6 +23,8 @@
   ],
   "Enums": {
     "Accessory": [
+	
+	
 	  {"DisplayName": "Werehog Wind Style",
         "Description":[
         "Do you like the Werehog's Spiral Dash effect at night? ",
@@ -35,6 +37,8 @@
         "Value": "WerehogWindStyle"
 
       },
+	  
+	  
       {"DisplayName": "Secret Rings Style",
         "Description":[
         "Imitates the flame-wreathed Boost Aura from Secret Rings,",
@@ -46,6 +50,8 @@
         ""],
         "Value": "SecretRingsStyle"
       },
+	  
+	  
       {"DisplayName": "Sonic Colors Style",
         "Description":[
         "It mimics the Boost Aura from Sonic Colors.",
@@ -59,6 +65,8 @@
         ""],
         "Value": "SonicColorsStyle"
       },
+	  
+	  
       {"DisplayName": "Sonic Forces Style",
         "Description":[
         "It mimics the Boost Aura from Sonic Forces.",
@@ -72,6 +80,8 @@
         ""],
         "Value": "SonicForcesStyle"
       },
+	  
+	  
       {"DisplayName": "Unwiished Style",
         "Description":[
         "It mimics the Boost Aura from Sonic Unleashed Wii/PS2.",
@@ -84,6 +94,8 @@
         ""],
         "Value": "UnwiishedStyle"
       },
+	  
+	  
       {"DisplayName": "Beta Prototypes Style",
         "Description":[
         "It mimics the Boost Aura from Sonic Unleashed Trailer.",
@@ -97,6 +109,8 @@
         ""],
         "Value": "BetaPrototypesStyle"
       },
+	  
+	  
       {"DisplayName": "Original Soft Tail",
         "Description":[
         "Added a faint trailing effect to the original Boost Aura to make it look less stiff.",
@@ -105,6 +119,8 @@
         ""],
         "Value": "OriginalSoftTail"
       },
+	  
+	  
       {"DisplayName": "Realistic Style Sonic Boom",
         "Description":[
         "It imitates the vapor cone created when breaking the sound barrier in real life.",
@@ -116,6 +132,20 @@
         ""],
         "Value": "RealisticSonicBoom"
       },
+	  
+	  
+      {"DisplayName": "SXSG Style",
+        "Description":[
+        "It mimics the Boost Aura from Shadow Gens.",
+		"It looks like a super complicated Forces version of Boost.",
+        "",
+		"模仿夏特世代的冲刺特效",
+		"看起来基本是个超级复杂化的力量版冲刺.",
+        ""],
+        "Value": "ShadowGensStyle"
+      },
+	  
+	  
       {"DisplayName": "Only Blur Tail",
         "Description":[
         "Hide the Boost Aura,",
@@ -126,6 +156,8 @@
         ""],
         "Value": "OnlyBlurTailStyle"
       },
+	  
+	  
       {"DisplayName": "No Aura",
         "Description":[
         "Hide Boost Aura effects.",
